@@ -45,3 +45,13 @@
     src: url('../fonts/Dosis-Medium.woff2') format('woff2'),
          url('../fonts/Dosis-Medium.woff') format('woff');
 }
+
+@mixin dosis-300 {
+    font-family: 'Dosis-Light';
+    font-weight: 300;
+}
+
+@mixin roboto-500 {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+}
